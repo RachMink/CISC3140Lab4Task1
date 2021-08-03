@@ -61,6 +61,6 @@ My table `tab6` includes 8 columns each of which inlcude `TEXT` information:
 `inmate_status_code` Provides the inmate status i.e. if an inmate is a detainee
 `top_charge` Top charge for the inmate
 
-#### Useful Resources
+#### Helpful Resources
 - although techical documentation can be daunting and lengthy at times the [sqlite](https://www.sqlite.org/cli.html) website is an easy to read, user friendly resource
 - great SQLite [tutorial](https://www.sqlitetutorial.net)
