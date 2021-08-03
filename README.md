@@ -3,7 +3,7 @@ Creating a database using sqlite3
 
 ### Introduction
 
-This project builds a SQL table of inmate release information in NYC (in 2018) using sqlite3. The script can be run in the command line so the user has a built database 
+This project builds a SQL table of [inmate release information in NYC (in 2018)](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium) using sqlite3. The script can be run in the command line so the user has a built database 
 and the `.db` exported to another `.csv` file (a tad extra).
 
 #### `dataBase.sh` Breakdown
@@ -60,3 +60,7 @@ My table `tab6` includes 8 columns each of which inlcude `TEXT` information:
 `age` age of the inmate
 `inmate_status_code` Provides the inmate status i.e. if an inmate is a detainee
 `top_charge` Top charge for the inmate
+
+#### Useful Resources
+- although techical documentation can be daunting and lengthy at times the [sqlite](https://www.sqlite.org/cli.html) website is an easy to read, user friendly resource
+- great SQLite [tutorial](https://www.sqlitetutorial.net)
