@@ -12,9 +12,8 @@ The script first downloads a `.csv` file from the internet using curl and saves 
 The script activates sqlite3 (assuming it's already installed on the computer) with a database called `dataBase.db` if this `db` already
 exists on the local computer then it will open the already existing `db`, otherwise it will create a new one called `dataBase.db` and include `<< EOF` which is
 understood that we'll be reading in input in sqlite3 until the `EOF` marker. 
-- `CREATE TABLE tab6;` creates a table called `tab6` in `dataBase.db` without the name of each column (we are importing from a `.csv` which already has the column names)
 - `.mode csv` sets input mode
-- `.import inmateFile.csv tab6` Import data from inmateFile.csv into tab6
+- `.import inmateFile.csv tab6` Import data from inmateFile.csv into tab6 (it creates a table called tab6)
 - `.schema` shows the CREATE statements in the command line
 - `.headers on` allows column labels to be printed as the first row of output in the csv
 - `.mode csv` sets output mode to 
