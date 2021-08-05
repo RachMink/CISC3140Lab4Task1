@@ -3,7 +3,7 @@ Creating a database using sqlite3
 
 ### Introduction
 
-This project builds a SQL table of [inmate release information in NYC (in 2018)](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium) using sqlite3. The script can be run in the command line so the user has a built database 
+This project builds a SQL table of [inmate release information in NYC (in 2018)](https://data.cityofnewyork.us/Public-Safety/Inmate-Discharges/94ri-3ium) using sqlite3 version 3.32.3. The script can be run in the command line so the user has a built database 
 and the `.db` exported to another `.csv` file (a tad extra).
 
 #### `dataBase.sh` Breakdown
