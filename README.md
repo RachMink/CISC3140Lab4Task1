@@ -1,5 +1,4 @@
-# CISC3140Lab4Task1
-Creating a database using sqlite3 
+# Creating a database using sqlite3 
 
 ### Introduction
 
